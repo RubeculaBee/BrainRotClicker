@@ -12,6 +12,7 @@ public partial class BrainClick : Sprite2D
 
 	private void _OnClick()
 	{
-		GD.Print("Clicked!");
+		GameManager.score++;
+		GD.Print($"Score: {GameManager.score}");
 	}
 }
