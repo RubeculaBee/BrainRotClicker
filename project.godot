@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Braint Rot Clicker"
-config/features=PackedStringArray("4.5", "Mobile")
+config/features=PackedStringArray("4.5", "C#", "Mobile")
 config/icon="res://Resources/Images/icon.svg"
 
 [dotnet]
@@ -20,4 +20,5 @@ project/assembly_name="Braint Rot Clicker"
 
 [rendering]
 
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
