@@ -1,0 +1,34 @@
+[gd_scene load_steps=8 format=3 uid="uid://cpvlchtk5v8pf"]
+
+[ext_resource type="Texture2D" uid="uid://cd83r8n8xtvks" path="res://Resources/Images/icon.svg" id="1_x6dqy"]
+[ext_resource type="Script" uid="uid://dxkgse7iw6ojs" path="res://Scripts/BrainClick.cs" id="2_2go6t"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2go6t"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_amr6p"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5inn2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i8rom"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bqgwy"]
+
+[node name="Brain" type="Sprite2D"]
+texture = ExtResource("1_x6dqy")
+script = ExtResource("2_2go6t")
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -64.0
+offset_top = -64.0
+offset_right = -64.0
+offset_bottom = -64.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_2go6t")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_amr6p")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_5inn2")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_i8rom")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqgwy")

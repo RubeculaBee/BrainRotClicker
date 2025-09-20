@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Braint Rot Clicker"
+run/main_scene="uid://csukp678mk4fq"
 config/features=PackedStringArray("4.5", "C#", "Mobile")
 config/icon="res://Resources/Images/icon.svg"
 

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://csukp678mk4fq"]
+
+[ext_resource type="PackedScene" uid="uid://cpvlchtk5v8pf" path="res://Scenes/brain.tscn" id="1_ebmjs"]
+[ext_resource type="Script" uid="uid://dxkgse7iw6ojs" path="res://Scripts/BrainClick.cs" id="2_qxrlw"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Brain" parent="." instance=ExtResource("1_ebmjs")]
+position = Vector2(529, 308)
+script = ExtResource("2_qxrlw")
