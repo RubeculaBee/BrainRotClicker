@@ -51,31 +51,6 @@ layout_mode = 2
 
 [node name="ShopElement" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
 layout_mode = 2
-
-[node name="ShopElement2" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
-
-[node name="ShopElement3" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
-
-[node name="ShopElement4" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
-
-[node name="ShopElement5" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
-
-[node name="ShopElement6" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
-
-[node name="ShopElement7" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
-
-[node name="ShopElement8" parent="VBoxContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_dqdqq")]
-visible = false
-layout_mode = 2
+name = "Brain Worms"
+description = "Worms in your brain"
+price = 10

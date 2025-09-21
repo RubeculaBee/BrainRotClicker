@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://bjxxe0e33fht3"]
+[gd_scene load_steps=7 format=3 uid="uid://bjxxe0e33fht3"]
 
+[ext_resource type="Script" uid="uid://uqh67a34mdew" path="res://Scripts/ShopItem.cs" id="1_03jb2"]
 [ext_resource type="Texture2D" uid="uid://cd83r8n8xtvks" path="res://Resources/Images/icon.svg" id="1_lsqsw"]
 [ext_resource type="FontFile" uid="uid://ck8euoiflma3t" path="res://Resources/Fonts/determination-mono.otf/determination-mono.otf" id="2_03jb2"]
 
@@ -17,6 +18,7 @@ texture_filter = 1
 offset_right = 372.0
 offset_bottom = 86.0
 theme_override_styles/panel = SubResource("StyleBoxEmpty_lsqsw")
+script = ExtResource("1_03jb2")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 2
@@ -50,7 +52,7 @@ size_flags_vertical = 4
 
 [node name="Price" type="Label" parent="HBoxContainer/Price-PurchaseCount"]
 layout_mode = 2
-text = "ℝ10"
+text = "ℝ0"
 
 [node name="PurchaseCount" type="Label" parent="HBoxContainer/Price-PurchaseCount"]
 layout_mode = 2
