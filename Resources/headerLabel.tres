@@ -1,0 +1,9 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://clx2kpcbkpyyw"]
+
+[ext_resource type="FontFile" uid="uid://ck8euoiflma3t" path="res://Resources/Fonts/determination-mono.otf/determination-mono.otf" id="1_0r505"]
+
+[resource]
+font = ExtResource("1_0r505")
+font_size = 96
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)

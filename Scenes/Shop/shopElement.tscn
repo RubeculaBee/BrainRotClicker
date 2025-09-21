@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://bjxxe0e33fht3"]
+
+[ext_resource type="Texture2D" uid="uid://cd83r8n8xtvks" path="res://Resources/Images/icon.svg" id="1_lsqsw"]
+[ext_resource type="FontFile" uid="uid://ck8euoiflma3t" path="res://Resources/Fonts/determination-mono.otf/determination-mono.otf" id="2_03jb2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lsqsw"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_g56xa"]
+font = ExtResource("2_03jb2")
+font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_lsqsw"]
+font_size = 12
+
+[node name="ShopElement" type="PanelContainer"]
+texture_filter = 1
+offset_right = 372.0
+offset_bottom = 86.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_lsqsw")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_lsqsw")
+expand_mode = 2
+
+[node name="Name-Description" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="HBoxContainer/Name-Description"]
+layout_mode = 2
+text = "Item Name"
+label_settings = SubResource("LabelSettings_g56xa")
+horizontal_alignment = 1
+
+[node name="Description" type="Label" parent="HBoxContainer/Name-Description"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+text = "This is the default description for a purchaseable shop item"
+label_settings = SubResource("LabelSettings_lsqsw")
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Price-PurchaseCount" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="Price" type="Label" parent="HBoxContainer/Price-PurchaseCount"]
+layout_mode = 2
+text = "ℝ10"
+
+[node name="PurchaseCount" type="Label" parent="HBoxContainer/Price-PurchaseCount"]
+layout_mode = 2
+text = "0x"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
